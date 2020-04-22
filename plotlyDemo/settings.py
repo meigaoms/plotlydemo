@@ -90,10 +90,11 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'plotly',
-        'USER': 'meigao',
-        'PASSWORD': 'gaogao28',
-        'HOST': 'localhost'
+        'NAME': os.environ['DBNAME'],
+        'HOST': os.environ['DBHOST'],
+        'USER': os.environ['DBUSER'],
+        'PASSWORD': os.environ['DBPASS'],
+
     }
 }
 
