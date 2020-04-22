@@ -1,0 +1,12 @@
+2020-04-10 11:07:02.423 PDT [88790] LOG:  starting PostgreSQL 12.2 on x86_64-apple-darwin19.3.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.17), 64-bit
+2020-04-10 11:07:02.425 PDT [88790] LOG:  listening on IPv6 address "::1", port 5432
+2020-04-10 11:07:02.426 PDT [88790] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-10 11:07:02.427 PDT [88790] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-04-10 11:07:02.438 PDT [88792] LOG:  database system was shut down at 2020-04-10 11:05:09 PDT
+2020-04-10 11:07:02.441 PDT [88790] LOG:  database system is ready to accept connections
+2020-04-10 11:08:59.208 PDT [88814] FATAL:  database "meigao" does not exist
+2020-04-10 11:10:50.577 PDT [88790] LOG:  received fast shutdown request
+2020-04-10 11:10:50.578 PDT [88790] LOG:  aborting any active transactions
+2020-04-10 11:10:50.579 PDT [88790] LOG:  background worker "logical replication launcher" (PID 88798) exited with exit code 1
+2020-04-10 11:10:50.580 PDT [88793] LOG:  shutting down
+2020-04-10 11:10:50.599 PDT [88790] LOG:  database system is shut down
